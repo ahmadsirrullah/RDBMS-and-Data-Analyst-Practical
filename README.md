@@ -21,3 +21,6 @@ After a customer purchases the product from Olist Store a seller gets notified t
 2. Each item might be fulfilled by a distinct seller.
 3. All text identifying stores and partners where replaced by the names of Game of Thrones great houses.
 
+![Design DB of Olist](https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/olist_db_dessign.png)
+
+![Detail Design DB Olist](https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/olist_db_dessign.png)
