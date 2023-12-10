@@ -23,4 +23,4 @@ After a customer purchases the product from Olist Store a seller gets notified t
 
 ![Design DB of Olist](https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/olist_db_dessign.png)
 
-![Detail Design DB Olist](https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/olist_db_dessign.png)
+![Detail Design DB Olist](https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/desigb_db_olist.png)
