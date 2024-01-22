@@ -1,5 +1,5 @@
 # RDBMS and Data Analyst Practical
-Welcome! Olist, a Brazilian e-commerce platform, employs a Relational Database Management System (RDBMS) to manage their data. This RDBMS enables in-depth data analysis, providing strategic insights into customer behavior, product performance, and market trends.
+Welcome! Olist, a Brazilian e-commerce platform, employs a Relational Database Management System (RDBMS) to manage their data. This RDBMS enables in-depth data analysis, providing strategic insights into customer behavior, product performance, and market trends. [*ongoing project*]
 
 ## About Project
 This project contains details on creating an RDBMS from scratch with a CSV file that can be obtained from [**Brazilian E-Commerce Public Dataset by Olist**](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv). The next step involves analyzing the data and delivering a dashboard to provide a more concise insight into Olist e-commerce.
