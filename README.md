@@ -34,16 +34,16 @@ The data is divided in multiple datasets for better understanding and organizati
 
 <img src="https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/olist_db_dessign.png" alt="Deskripsi Gambar" width="800"/>
 
-## Creating RDBMS of Olist ecommerce Data
+## Creating RDBMS of Olist e-commerce Data
 According to the data schema provided by Olist, we can identify the columns that establish relationships between the tables. I have provided details about the relations and determined the primary and foreign keys as follows.
 
 <img src="https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/desigb_db_olist.png" alt="Deskripsi Gambar" width="800"/>
 
 **NB**: Primary Key (PK), Foreign Key (FK).
 
-To create Olist RDBMS, the steps are follows:
+To create the Olist RDBMS, follow these steps:
 
-1. Create Database **Olist**
+#### 1. Create Database **Olist**
    
    **Create a new database:**
    ```sql
@@ -54,10 +54,26 @@ To create Olist RDBMS, the steps are follows:
    ```sql
    USE Olist;
    ```
-3. Create Tables that becomes place to save the every Olist data table
    
-5. Read or input the data
-6. Create the relationship between the table by the PK and FK
+#### 2. Create Tables that becomes place to save the every Olist data table
+   
+   I have provided the complete SQL code to create the tables in MySQL server in the following link [create_table.sql](https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/create_table.sql).
+   
+#### 3. Read or input the data
+   
+   For inputting data into the tables, we can read from the CSV instantly, rather than inputting one by one. It wills comsume large amount of time. This is the example code to read instantly from CSV.
+   ```sql
+   LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.2/Uploads/olist/olist_customers_dataset.csv'
+   INTO TABLE customer
+   FIELDS TERMINATED BY ','
+   IGNORE 1 ROWS;
+   ```
+   The complete code can be found in the following link [import_csv.sql](https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/import_csv.sql). You will find the data types for any updating columns in the link.
+   
+#### 4. Create the relationship between the table by the PK and FK
+
+   For the last step, we created the relationships between the tables based on the data schema that provided by Olist. The complete code can be found in the following link [create_rdbms.sql](https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/create_rdbms.sql).
 
 for the step 3 and 4 can be reversible
 
+## Olist E-commerce Analysis
