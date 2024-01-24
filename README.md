@@ -35,6 +35,29 @@ The data is divided in multiple datasets for better understanding and organizati
 <img src="https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/olist_db_dessign.png" alt="Deskripsi Gambar" width="800"/>
 
 ## Creating RDBMS of Olist ecommerce Data
+According to the data schema provided by Olist, we can identify the columns that establish relationships between the tables. I have provided details about the relations and determined the primary and foreign keys as follows.
 
 <img src="https://github.com/ahmadsirrullah/RDBMS-and-Data-Analyst-Practical/blob/main/desigb_db_olist.png" alt="Deskripsi Gambar" width="800"/>
+
+**NB**: Primary Key (PK), Foreign Key (FK).
+
+To create Olist RDBMS, the steps are follows:
+
+1. Create Database **Olist**
+   
+   **Create a new database:**
+   ```sql
+   CREATE DATABASE Olist;
+   ```
+
+   **Switch to the newly created database:**
+   ```sql
+   USE Olist;
+   ```
+3. Create Tables that becomes place to save the every Olist data table
+   
+5. Read or input the data
+6. Create the relationship between the table by the PK and FK
+
+for the step 3 and 4 can be reversible
 
